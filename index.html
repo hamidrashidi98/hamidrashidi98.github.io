@@ -1,16 +1,346 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Hamid Rashidi GitHub profile - Backend Developer, Python, Django, AI Enthusiast.">
-  <meta name="keywords" content="Hamid Rashidi, GitHub, Python Developer, Backend, Django, AI">
-  <meta name="author" content="Hamid Rashidi">
-  <title>Hamid Rashidi - GitHub Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamid Rashidi</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hamid Rashidi</h1>
-  <p> c | c++ | Python | Php | html | css | javascript </p>
-  <p>Visit my GitHub profile here:</p>
-  <a href="https://github.com/hamidrashidi98">https://github.com/hamidrashidi98</a>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="images/my-avatar.png" alt="Hamid Rashidi" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name font-lalezar">Hamid Rashidi</h1>
+          <p class="title font-vazir">Back-End Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:Spiderhamidman@outlook.com" class="contact-link">Spiderhamidman@outlook.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Tehran, Iran</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link active" data-nav-link>About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#resume" class="navbar-link" data-nav-link>Resume</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>Hi there, I'm Hamid Rashidi.  </p>
+          <p>Python, C, C++, PHP, JavaScript, HTML5 & CSS3 developer.</p>
+          <p>Currently learning Cyber Security to expand my skills.</p>
+          <p>Hope you the BEST :) 🧩😉❤️</p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-End Development</h4>
+                <p class="service-item-text">Involved in data storage, security, and other server-side functions that you cannot see.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-design.svg" alt="Design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+                <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-app.svg" alt="Mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Apps</h4>
+                <p class="service-item-text">Professional development of applications for Android.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="images/icon-robot.png" alt="Bot icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Bot</h4>
+                <p class="service-item-text">I make high-quality robots of any category at a professional level.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="projects">
+          <h3 class="h3 projects-title">Projects</h3>
+          <ul class="projects-list has-scrollbar">
+            <li class="projects-item">
+              <img src="images/AllameHelli.jpg" alt="Allame Helli School Logo" style="width: 100px; border-radius: 10px;" aria-label="Allame Helli School Logo">
+            </li>
+            <li class="projects-item">
+              <img src="images/PersianTeam.jpg" alt="Persian Team logo" style="width: 100px; border-radius: 10px;" aria-label="Persian Team logo">
+            </li>
+            <li class="projects-item">
+              <img src="images/ShahabNoor.jpg" alt="Shahab Noor School Logo" style="width: 100px; border-radius: 10px;" aria-label="Shahab Noor School Logo">
+            </li>
+            <li class="projects-item">
+              <a href="https://python-bale-bot.ir/" target="_blank">
+                <img src="images/python-bale-bot.png" alt="Python Bale Bot logo" style="width: 100px; border-radius: 10px;" aria-label="Python Bale Bot logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <img src="images/OxygenTeam.png" alt="Oxygen Team Logo" style="width: 110px; border-radius: 10px;" aria-label="Oxygen Team Logo">
+            </li>
+            <li class="clients-item">
+              <a href="https://kian-ahmadian.ir/dastyar-mafia" target="_blank">
+                <img src="images/dastyar-mafia.png" alt="Dastyar Mafia logo" style="width: 100px;" aria-label="Dastyar Mafia logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <img src="images/group-ban.png" alt="Group Ban logo" style="width: 90px;" aria-label="Group Ban logo">
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Allameh Helli High School</h4>
+              <span>2020 — Present</span>
+              <p class="timeline-text">Studying in Mathematics and Physics.</p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Android Developer</h4>
+              <span>Self-Employed — 2021 to 2023</span>
+              <p class="timeline-text">Developed Android applications for various clients.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bot Developer</h4>
+              <span>Freelance — 2019 to Present</span>
+              <p class="timeline-text">Built custom bots with high quality.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Back-End Developer</h4>
+              <span>Self-Employed — Freelance — 2021 to Present</span>
+              <p class="timeline-text">Worked on server and database for projects.</p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill-wrapper">
+          <h3 class="h3 skills-title">Skills</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="100">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Front-End</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">TypeScript</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="100">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Photoshop</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <form class="contact-form" data-form action="mailto:spiderhamidman@outlook.com" method="POST" enctype="text/plain">
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full Name" data-form-input required>
+              <input type="email" name="email" class="form-input" placeholder="Email Address" data-form-input required>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" data-form-input required></textarea>
+            <button class="form-btn" type="submit">Send Message</button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    // element toggle function
+    const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+    // sidebar variables
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+    // sidebar toggle functionality for mobile
+    sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+    // contact form variables
+    const form = document.querySelector("[data-form]");
+    const formInputs = document.querySelectorAll("[data-form-input]");
+    const formBtn = document.querySelector(".form-btn");
+
+    // add event to all form input field
+    for (let i = 0; i < formInputs.length; i++) {
+      formInputs[i].addEventListener("input", function () {
+        if (form.checkValidity()) {
+          formBtn.removeAttribute("disabled");
+        } else {
+          formBtn.setAttribute("disabled", "");
+        }
+      });
+    }
+
+    // page navigation variables
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    // add event to all nav link
+    for (let i = 0; i < navigationLinks.length; i++) {
+      navigationLinks[i].addEventListener("click", function () {
+        for (let j = 0; j < pages.length; j++) {
+          if (this.innerHTML.toLowerCase() === pages[j].dataset.page) {
+            pages[j].classList.add("active");
+            navigationLinks[j].classList.add("active");
+            window.scrollTo(0, 0);
+          } else {
+            pages[j].classList.remove("active");
+            navigationLinks[j].classList.remove("active");
+          }
+        }
+      });
+    }
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
